@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2> Revise nuestras opciones de vivienda </h2>
+
+<form method="get" class="row g-2 mb-4 justify-content-center">
+
+    <label for="region">REGIÓN</label>
+    <select class="form-select" name="region" id="region">
+        <option value="">---TODAS LAS REGIONES---</option>
+        {% for region in regiones %}
+        <option value="{{ region.id }}"> {{ region.nombre }} ({{ region.total_inmuebles }})</option>
+        {% endfor %}
+    </select>
+
+    <label for="comuna">COMUNA</label>
+    <select class="form-select" name="comuna" id="comuna">
+        <option value="">---TODAS LAS COMUNAS---</option>
+        {% for comuna in comunas %}
+        <option value="{{ comuna.id }}"> {{ comuna.nombre }} ({{ comuna.total_inmuebles }})</option>
+        {% endfor %}
+    </select>
+
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary">
+            Buscar
+        </button>
+    </div>
+</form>
+
+<div class="row justify-content-center">
+    {% for inmueble in inmuebles %}
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card text-center h-100">
+
+                <div class="card-header">
+                    ${{ inmueble.precio_mensual }} - {{ inmueble.tipo_inmueble }}
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ inmueble.nombre }}</h5>
+                    <p class="card-text">{{ inmueble.descripcion }}</p>
+                    <a href="#" class="btn btn-primary">Revisar</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                    {{ inmueble.fecha_creacion }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+
+{% endblock %}

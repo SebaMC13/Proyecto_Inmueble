@@ -1,0 +1,20 @@
+{% load static %}
+
+<div style="position: relative; width: 100%; height: 250px; overflow: hidden;">
+
+    <!-- Imagen de fondo -->
+    <img src="{% static 'img/philipp_urlich.jpg' %}"
+         alt="Fondo"
+         style="width: 100%; height: 100%; object-fit: cover;">
+
+    <!-- Imagen centrada -->
+    <img src="{% static 'img/encantadora-casa-campo.avif' %}"
+         alt="Logo"
+         style="position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                max-width: 250px;
+                height: auto;">
+
+</div>

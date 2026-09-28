@@ -1,0 +1,90 @@
+[
+{
+    "model": "gestion_inmuebles.usuario",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$tS07BwDlXMraGDe49GA0vB$B1s9MVv0Fp+asWN52zWjiifGi+gGluFKbjkcFB1ZzVc=",
+        "last_login": "2026-09-14T23:52:51.012Z",
+        "is_superuser": true,
+        "username": "sebastian",
+        "first_name": "",
+        "last_name": "",
+        "email": "abc@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-09-12T11:49:04.675Z",
+        "rut": "11.111.111-3",
+        "direccion": null,
+        "telefono": null,
+        "tipo_usuario_por_defecto": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "gestion_inmuebles.usuario",
+    "pk": 2,
+    "fields": {
+        "password": "Galatea13",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Felipe",
+        "first_name": "Felipe",
+        "last_name": "Perez",
+        "email": "123@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-09-12T11:55:07Z",
+        "rut": "12.345.678-3",
+        "direccion": "Santiago",
+        "telefono": "9 9876 5432",
+        "tipo_usuario_por_defecto": "arrendador",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "gestion_inmuebles.usuario",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$xCI9K7ibC2tGwxHg7kFs0g$ptQyzcVjO/r/TQ/iapVDCDcW4ixTr6xR6gvQkSkql2c=",
+        "last_login": "2026-09-14T22:56:01Z",
+        "is_superuser": false,
+        "username": "Pablo",
+        "first_name": "Pablo",
+        "last_name": "Perez",
+        "email": "asd@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-09-14T22:55:58Z",
+        "rut": "12.345.678-0",
+        "direccion": null,
+        "telefono": null,
+        "tipo_usuario_por_defecto": "arrendatario",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "gestion_inmuebles.usuario",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$8v7liFg4euqQxDNbVHlTKz$R+lAFzNaS3H17AvNIBfCh+reVAgfZf18qM42qu98rwQ=",
+        "last_login": "2026-09-14T23:34:47.664Z",
+        "is_superuser": false,
+        "username": "Vale",
+        "first_name": "Vale",
+        "last_name": "Perez",
+        "email": "qwe@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-09-14T23:34:42.216Z",
+        "rut": "9.876.543-2",
+        "direccion": null,
+        "telefono": null,
+        "tipo_usuario_por_defecto": "arrendatario",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

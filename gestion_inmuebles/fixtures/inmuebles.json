@@ -1,0 +1,42 @@
+[
+    {
+        "model": "gestion_inmuebles.Inmueble",
+        "pk": 1,
+        "fields": {
+            "nombre": "Departamento acogedor",
+            "descripcion": "Monoambiente",
+            "m2_construidos": 20,
+            "m2_totales": 20,
+            "estacionamientos": 1,
+            "habitaciones": 2,
+            "banos": 1,
+            "direccion": "Puente Alto",
+            "comuna": 115,
+            "tipo_inmueble": 1,
+            "precio_mensual": 400000,
+            "dueno": 1,
+            "fecha_creacion": "2026-09-14T21:30:00-03:00",
+            "ultima_modificacion": "2026-09-14T21:30:00-03:00"
+        }
+    },
+        {
+        "model": "gestion_inmuebles.Inmueble",
+        "pk": 2,
+        "fields": {
+            "nombre": "Casa Lujosa de Playa",
+            "descripcion": "A orillas del mar",
+            "m2_construidos": 80,
+            "m2_totales": 100,
+            "estacionamientos": 2,
+            "habitaciones": 4,
+            "banos": 2,
+            "direccion": "Viña del Mar",
+            "comuna": 51,
+            "tipo_inmueble": 2,
+            "precio_mensual": 850000,
+            "dueno": 1,
+            "fecha_creacion": "2026-09-14T21:40:00-03:00",
+            "ultima_modificacion": "2026-09-14T21:40:00-03:00"
+        }
+    }
+]
